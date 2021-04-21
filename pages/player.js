@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Player from '../Components/Panels/Player';
 
 const PlayerPanel = () => {
     return (
-        <p className="text-center text-4xl">Organiser Panel</p>
+        <Player />
     );
 };
 export default PlayerPanel;

@@ -1,8 +1,9 @@
 import React from 'react';
+import Organiser from '../Components/Panels/Organiser';
 
 const OrganiserPanel = () => {
     return (
-        <p className="text-center text-4xl">Organiser Panel</p>
+        <Organiser />
     );
 };
 export default OrganiserPanel;

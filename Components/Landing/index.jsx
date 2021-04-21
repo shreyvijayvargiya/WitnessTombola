@@ -65,7 +65,7 @@ const Landing = () => {
         <div className="flex flex-col justify-center align-middle text-center w-screen h-screen">
             <h1 className="text-4xl">Witness Tombola</h1>
             <div className="shadow-xl w-auto m-auto p-8 bg-gray-100">
-                <p className="text-3xl">Please fill the form to start the game</p>
+                <p className="text-2xl">Please fill the form to start the game</p>
                 <br />
                 <h4>Select your type</h4>
                 <FormControl component="fieldset">
