@@ -82,6 +82,7 @@ const Landing = () => {
                         color="primary"
                         variant="outlined"
                         fullWidth
+                        size="small"
                         value={username}
                         placeholder="Enter your name"
                         onChange={(e) => {
@@ -94,6 +95,7 @@ const Landing = () => {
                     <TextField 
                         color="primary"
                         variant="outlined"
+                        size="small"
                         fullWidth
                         placeholder={value === 'organiser' ? "Set the game name": "Enter the game name"}
                         onChange={handleGameNameChange}
@@ -104,7 +106,7 @@ const Landing = () => {
                         fullWidth
                         color="primary"
                         value={gameName}
-                        size="large"
+                        size="medium"
                         variant="contained"
                         onClick={handelSubmit}
                     >
